@@ -28,7 +28,8 @@ public class Service{
 
 		return c;
 	}
-	@RequestMapping(path="api/cars", method= RequestMethod.Get)
+
+	@RequestMapping(path="api/cars", method= RequestMethod.GET)
 	public Cars testgetCars(){
 		Cars cars = new Cars();
 		cars.setCarName("Audi");
@@ -36,12 +37,13 @@ public class Service{
 		cars.setCarColor("Red");
 		return cars;
 	}
-	@RequestMapping(path="api/postcars", method= RequestMethod.Post)
+
+	@RequestMapping(path="api/postcars", method= RequestMethod.POST)
 	public void postCar(@RequestBody Cars car){
 
-		System.out.println(car.getCarName);
-		System.out.println(car.getCarMake);
-		System.out.println(car.getCarColor);
+		System.out.println(car.getCarName());
+		System.out.println(car.getCarMake());
+		System.out.println(car.getCarColor());
 
 	}
 

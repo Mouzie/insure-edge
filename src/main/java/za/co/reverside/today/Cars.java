@@ -18,7 +18,7 @@ public class Cars{
 		return this.carMake;
 	}
 
-	public void setCarMake(String carMake)}{
+	public void setCarMake(String carMake){
 		this.carMake = carMake;
 	}
 
