@@ -53,4 +53,9 @@ public class Service{
 
 	}
 
+	@RequestMapping(path="api/demo")
+	public String demo(){
+		return "Demo for git push";
+	}
+
 }
