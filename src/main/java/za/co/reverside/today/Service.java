@@ -29,6 +29,12 @@ public class Service{
 		return c;
 	}
 
+	@RequestMapping(path="api/test")
+		public String test(){
+			return "Test";
+		}
+	
+
 	@RequestMapping(path="api/cars", method= RequestMethod.GET)
 	public Cars testgetCars(){
 		Cars cars = new Cars();
