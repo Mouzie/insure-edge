@@ -1,10 +1,10 @@
 package za.co.reverside.today;
 
 
-import org.springframework.boot.SpringBootApplocation;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplocation
+@SpringBootApplication
 public class Application{
 
 
